@@ -1,0 +1,45 @@
+.magnifierAccordian {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+
+.magnifying-glass {
+  transition: all 0.5s linear;
+  position: absolute;
+  z-index: 1;
+  background: #e5e5e5 no-repeat;
+  border: solid #ebebeb;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.magnifying-content {
+  transition: all 0.5s linear;
+  position: absolute;
+  z-index: 100;
+  opacity: 1;
+}
+.magnifierButtonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.magnifying-content p,
+.magnifying-content .magnifierButtonContainer div {
+  color: white;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.magnifying-content .magnifierButtonContainer div{
+	padding: 10px;
+}
+.navigation {
+  z-index: 0;
+  cursor: pointer;
+}

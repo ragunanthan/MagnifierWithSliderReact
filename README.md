@@ -2,6 +2,7 @@
 
 
 Example :
+![Alt Text](./gif.mp4)
 
 ```js
 import { Magnifier } from "react-magnifier-with-slider";
